@@ -13,19 +13,17 @@ const Sidebar: React.FC<SidebarProps> = ({ }) => {
 
   return (
     <>
-      <div className="text-white text-2xl"
+      <div className={
+        ("text-white text-4xl " + (isOpen ? "hidden" : "block"))
+      }
         onClick={() => setIsOpen(!isOpen)}
       >
         <CiMenuBurger />
       </div>
       <div
-        className={`fixed px-4 py-6 top-0 right-0 w-full h-full bg-gray-800 transition-all duration-300 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed px-4 py-6 top-0 left-0 w-4/5 h-full bg-gray-800 transition-all duration-300 opacity-90 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
       >
-        <button className="text-white text-2xl flex justify-end w-full pb-4"
-          onClick={() => setIsOpen(!isOpen)}>
-          <FiX />
-        </button>
         <div
           className='flex flex-col gap-y-2 text-white'
         >
@@ -36,6 +34,12 @@ const Sidebar: React.FC<SidebarProps> = ({ }) => {
           <Link to="/https://pmb.idn.ac.id/">PMB</Link>
         </div>
       </div>
+      <button className={
+        ("text-white text-4xl " + (isOpen ? "block" : "hidden"))
+      }
+        onClick={() => setIsOpen(!isOpen)}>
+        <FiX />
+      </button>
     </>
   );
 };
