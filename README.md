@@ -1,4 +1,4 @@
 # Todo List
-- [X] Create page - About Us
-- [X] Create page - Contact Us
-- [X] Create page - Academic
+- [ ] Create page - About Us
+- [ ] Create page - Contact Us
+- [ ] Create page - Academic
