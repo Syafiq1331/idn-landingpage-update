@@ -13,7 +13,7 @@ const AboutIDN: React.FC<AboutIDNProps> = ({ }) => {
         '
       />
       <div className='w-full lg:col-span-2 col-span-3 lg:px-0 px-4 py-2'>
-        <h6 className='py-2 font-semibold'>Tentang Politeknik IDN Bogor</h6>
+        <p className='py-2 font-semibold'>Tentang Politeknik IDN Bogor</p>
         <h3 className='py-2 font-extrabold text-3xl'>Sejarah singkat Politeknik IDN Bogor</h3>
         <p className='py-2'>
           Sekolah SMP dan SMK IDN berada dibawah Yayasan IDN dengan pembina bapak Dedi Gunawan, MT, CCIE. SMP dan SMK IDN memiliki keunggulan utama di bidang IT (teknologi informasi) yang mengacu pada kebutuhan industri IT Internasional. Setiap anak terutama untuk jenjang SMK akan disiapkan untuk memiliki skill dan sertifikasi untuk berkiprah di dunia internasional.
