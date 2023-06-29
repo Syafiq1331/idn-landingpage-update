@@ -26,14 +26,18 @@ const Footer: React.FC<FooterProps> = ({ }) => {
       <div className=''>
         <h3 className='text-lg font-semibold'>Profile</h3>
         <ul className='mt-2'>
-          <li>Tentang Politeknik IDN</li>
           <li>
-            <a href="lucu">
+            <a href="/about">
+              Tentang Politeknik IDN
+            </a>
+          </li>
+          <li>
+            <a href="">
               Prestasi
             </a>
           </li>
           <li>
-            <a href="https://pmb.idn.ac.id/">
+            <a href="/">
               PMB
             </a>
           </li>
@@ -45,10 +49,21 @@ const Footer: React.FC<FooterProps> = ({ }) => {
       <div>
         <h3 className='text-lg font-semibold'>Social media</h3>
         <ul className='mt-2'>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>Youtube</li>
+          <li>
+            <a href="https://www.facebook.com/idnboardingschool/">
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/politeknik_idn/">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@IDNTV2022">
+              Youtube
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
