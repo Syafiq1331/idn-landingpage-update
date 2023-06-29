@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
       <Link className='hover:text-blue-700 font-semibold' to="/about">About Us</Link>
       <Link className='hover:text-blue-700 font-semibold' to="/academic">Academic</Link>
       <Link className='hover:text-blue-700 font-semibold' to="/contact">Contact Us</Link>
-      <Link className='hover:text-blue-700 font-semibold' to="/https://pmb.idn.ac.id/">PMB</Link>
+      <Link className='hover:text-blue-700 font-semibold' to="/pmb">PMB</Link>
     </nav>
   );
 };
